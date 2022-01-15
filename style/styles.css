@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+#main-header {
+    margin-top: 24px;
+    margin-bottom: 64px;
+    font-size: 48px;
+}
+
+.text {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #1f2937;
+}
+.containers {
+    padding: 8px 264px;
+}
+
+img {
+    width: 250px;
+    height:250px;
+    }
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.btn {
+    border: none;
+    background: none;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 48px;
+}
+
+.container-2 {
+    margin-bottom: 128px;
+}
+
+.score {
+    font-size: 24px;
+}
+
+.container-3 {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
