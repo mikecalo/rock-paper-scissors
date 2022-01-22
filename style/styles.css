@@ -5,7 +5,7 @@
 
 #main-header {
     margin-top: 24px;
-    font-size: 48px;
+    font-size: 36px;
 }
 
 .text {
@@ -14,18 +14,19 @@
     color: #1f2937;
 }
 .containers {
-    padding: 8px 264px;
+    padding: 8px 64px;
 }
 
 img {
-    width: 250px;
-    height:250px;
+    width: 200px;
+    height:200px;
     }
 
 .items {
     display: flex;
     justify-content: center;
     gap: 100px;
+    padding: 12px;
 }
 
 .btn {
@@ -33,23 +34,39 @@ img {
     background: none;
 }
 
+.btn:hover {
+    transform: scale(1.25);
+    
+}
+
 h2 {
-    font-size: 36px;
-    margin-top: 64px;
-    margin-bottom: 48px;
+    font-size: 24px;
+    margin-top: 24px;
+    margin-bottom: 12px;
 }
 .score {
-    font-size: 36px;
+    font-size: 24px;
 }
 .container-1 {
-    margin-top: 32px;
+    margin-top: 24px;
 }
 .container-2 {
-    margin-bottom: 128px;
+    margin-bottom: 82px;
 }
-.container-3 {
+
+.winner {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 12px;
+}
+
+/* #result {
+    
+} */
+/* .container-3 {
     display:flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-}
+    padding: 8px 264px;
+} */

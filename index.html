@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <script src="script.js"></script> -->
     <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="style/styles.css">
 </head>
@@ -17,20 +16,15 @@
     <div class="containers container-2">
         <h2 class="text rules">Man vs. Computer. First to 5 wins. Choose your weapon:</h2>
         <div class="items">
-            <div class="item rock">
-                <button class="btn"><img src="images/rock-2.jpeg" alt="Rock"></button>
-            </div>
-            <div class="item paper">
-                <button class="btn"><img src="images/paper.png" alt="Paper"></button>
-            </div>
-            <div class="item scissors">
-                <button class="btn"><img src="images/scissors.jpeg" alt="Scissors"></button>
+                <button class="btn" ><img id="rock" src="images/rock-2.jpeg" alt="Rock"></button>
+                <button class="btn"><img id="paper" src="images/paper.png" alt="Paper"></button>
+                <button class="btn"><img id="scissors" src="images/scissors.jpeg" alt="Scissors"></button>
             </div>
         </div>
     </div>
-    <div class="containers container-3">
-        <div class="text score">Your Score:</div>
-        <div class="text score">Computer Score:</div>
+    <div class="containers container-3 text score" id="result">
+
     </div>
+<script src="new-script.js" defer></script>
 </body>
 </html>
