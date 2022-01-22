@@ -9,4 +9,4 @@
   <li>DOM Manipulation</li>
 </p>
   
- <p><a href="https://mikecalo.github.io/landing-page">Live Preview</a> </p>
+ <p><a href=https://mikecalo.github.io/rock-paper-scissors/>Live Preview</a> </p>
